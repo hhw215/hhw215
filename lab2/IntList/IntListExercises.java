@@ -70,7 +70,7 @@ public class IntListExercises {
         if(lst == null){
             return false;
         }
-        boolean currElemIsPrime = Primes.isPrime(lst.first);
+        boolean currElemIsPrime = Primes.isPrime(lst.first) && (lst.first != 1);
 
         if (currElemIsPrime) {
             lst.first *= lst.first;

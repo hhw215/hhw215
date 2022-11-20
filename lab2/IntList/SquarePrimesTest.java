@@ -39,7 +39,7 @@ public class SquarePrimesTest {
         IntList lst = IntList.of(1,1,1,1);
         boolean changed = IntListExercises.squarePrimes(lst);
         assertEquals("1 -> 1 -> 1 -> 1", lst.toString());
-        assertTrue(changed);
+        assertFalse(changed);
     }
 
     @Test
